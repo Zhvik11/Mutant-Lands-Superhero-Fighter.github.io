@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-label="Privacy shield landscape">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#18342d"/>
+      <stop offset="0.48" stop-color="#5f8c76"/>
+      <stop offset="1" stop-color="#f1e4b6"/>
+    </linearGradient>
+    <linearGradient id="hillA" x1="0" x2="1">
+      <stop offset="0" stop-color="#315846"/>
+      <stop offset="1" stop-color="#162b27"/>
+    </linearGradient>
+    <linearGradient id="hillB" x1="0" x2="1">
+      <stop offset="0" stop-color="#244a3d"/>
+      <stop offset="1" stop-color="#0f211e"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0.12" x2="0.9" y1="0.1" y2="1">
+      <stop offset="0" stop-color="#fff0b7"/>
+      <stop offset="0.45" stop-color="#d9ad4d"/>
+      <stop offset="1" stop-color="#a85b35"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#101b18" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="640" fill="url(#sky)"/>
+  <path d="M0 382 C165 315 272 398 416 352 C558 306 676 349 803 320 C978 280 1122 309 1280 252 L1280 640 L0 640Z" fill="url(#hillA)" opacity="0.88"/>
+  <path d="M0 494 C151 447 284 505 426 464 C585 419 707 499 850 445 C1006 386 1135 423 1280 364 L1280 640 L0 640Z" fill="url(#hillB)"/>
+  <path d="M120 184 C245 144 353 236 514 197" fill="none" stroke="#c46c39" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+  <path d="M115 252 C256 207 369 297 576 250" fill="none" stroke="#1a7f64" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M150 318 C314 280 416 356 610 319" fill="none" stroke="#f2d98d" stroke-width="5" stroke-linecap="round" opacity="0.54"/>
+  <g filter="url(#softShadow)">
+    <path d="M960 112 L1122 170 L1095 356 C1081 456 1012 506 960 532 C908 506 839 456 825 356 L798 170Z" fill="url(#shield)" opacity="0.94"/>
+    <path d="M960 144 L1084 188 L1062 348 C1051 428 999 468 960 489 C921 468 869 428 858 348 L836 188Z" fill="#173c33" opacity="0.9"/>
+    <rect x="902" y="290" width="116" height="92" rx="13" fill="#f2d98d"/>
+    <path d="M922 290 V253 C922 225 941 205 960 205 C979 205 998 225 998 253 V290" fill="none" stroke="#f2d98d" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="960" cy="329" r="13" fill="#173c33"/>
+    <path d="M960 340 V365" stroke="#173c33" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
